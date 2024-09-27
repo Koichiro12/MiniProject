@@ -1,0 +1,5 @@
+@include('assets.Components.Header')
+@include('assets.Components.Navbar')
+@include('assets.Components.Sidebar')
+@yield('content')
+@include('assets.Components.Footer')
